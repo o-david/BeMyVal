@@ -34,8 +34,8 @@ const Yes = () => {
     <div className="bg-no-repeat flex justify-center items-center bg-center w-full h-full md:h-screen bg-[url('./assets/yes2.jpeg')] flex-col text-center" >
             {/* Your component content goes here */}
             <h1 className={`text-[2rem] text-white ${text1Visible ? 'animate-fade-in' : 'opacity-0'}`}>You for no gree mtcheeew</h1>
-            <h1 className={`text-[1.5rem] text-white ${text2Visible ? 'animate-fade-in' : 'opacity-0'}`}>I have a Surprise for you later tonight</h1>
-            <h1 className={`text-[1.5rem] text-white ${text3Visible ? 'animate-fade-in' : 'opacity-0'}`}>PS: I love you</h1>
+            <h1 className={`text-[1.5rem] text-white ${text2Visible ? 'animate-fade-in duration-[2000ms]' : 'opacity-0'}`}>I have a Surprise for you later tonight</h1>
+            <h1 className={`text-[3rem] font-extrabold text-white ${text3Visible ? 'animate-fade-in duration-1000' : 'opacity-0'}`}>PS: I love you</h1>
       
         </div>
     </div>
